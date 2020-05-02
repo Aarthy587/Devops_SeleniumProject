@@ -17,7 +17,7 @@ public class Base {
   @BeforeMethod
   public void beforeSuite() {
 	  Common commonUtil = new Common();
-	  commonUtil.setUpBrowser("chrome", "http://www.newtours.demoaut.com/");
+	  commonUtil.setUpBrowser("firefox", "http://www.newtours.demoaut.com/");
 	  driver = commonUtil.getDriver();
   }
 
